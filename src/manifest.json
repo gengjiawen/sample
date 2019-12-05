@@ -526,10 +526,7 @@
       "scenario/scene/accessible": {
         "component": "index"
       },
-      "component/media/web/darkmode-enable": {
-        "component": "index"
-      },
-      "component/media/web/darkmode-disable": {
+      "component/media/web/darkmode-web": {
         "component": "index"
       }
     }
@@ -578,6 +575,9 @@
       "interface/system/fitCutout": {
         "fullScreen": true,
         "fitCutout":"portrait"
+      },
+      "component/media/web/darkmode-web": {
+        "titleBarText": "webview夜间模式适配效果对比"
       }
     },
     "windowSoftInputMode": "adjustResize"
