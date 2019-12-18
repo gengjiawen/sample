@@ -50,6 +50,7 @@
     { "name": "service.exchange" },
     { "name": "system.zip" },
     { "name": "hap.io.MessageChannel" },
+    { "name": "system.configuration" },
     {
       "name": "service.wxpay",
       "params": {
@@ -259,6 +260,9 @@
         "component": "index"
       },
       "framework/i18n": {
+        "component": "index"
+      },
+      "framework/theme-mode": {
         "component": "index"
       },
       "framework/computed": {
@@ -510,7 +514,7 @@
       "scenario/web/customWeb": {
         "component": "index"
       },
-      "scenario/web/web": {
+      "scenario/web/customWeb/wrap": {
         "component": "index"
       },
       "scenario/component/finegrainsize": {
@@ -520,6 +524,9 @@
         "component": "index"
       },
       "scenario/scene/accessible": {
+        "component": "index"
+      },
+      "component/media/web/darkmode-web": {
         "component": "index"
       }
     }
@@ -548,6 +555,7 @@
     "titleBar": true,
     "titleBarBackgroundColor": "#0faeff",
     "titleBarTextColor": "#ffffff",
+    "themeMode": -1,
     "pages": {
       "home": {
         "titleBarText": "快应用组件展示"
@@ -567,6 +575,9 @@
       "interface/system/fitCutout": {
         "fullScreen": true,
         "fitCutout":"portrait"
+      },
+      "component/media/web/darkmode-web": {
+        "titleBarText": "webview夜间模式适配效果对比"
       }
     },
     "windowSoftInputMode": "adjustResize"
