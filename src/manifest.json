@@ -531,6 +531,9 @@
       },
       "component/style/animateApi": {
         "component": "index"
+      },
+      "scenario/effect/sharepic": {
+        "component": "index"
       }
     }
   },
