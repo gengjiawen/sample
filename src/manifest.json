@@ -540,6 +540,9 @@
       },
       "component/media/web/scale-web": {
         "component": "index"
+      },
+      "framework/optimization/dynaComponents": {
+        "component": "index"
       }
     }
   },
