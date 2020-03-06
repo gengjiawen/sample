@@ -451,6 +451,9 @@
       "interface/system/zip": {
         "component": "index"
       },
+      "interface/system/push":{
+        "component":"index"
+      },
       "component/style/animation": {
         "component": "index"
       },
