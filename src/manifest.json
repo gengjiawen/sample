@@ -256,6 +256,9 @@
       "framework/style-layout/position": {
         "component": "index"
       },
+      "framework/style-layout/media-query": {
+        "component": "index"
+      },
       "framework/filter": {
         "component": "index"
       },
@@ -445,8 +448,8 @@
       "interface/system/bluetooth": {
         "component": "index"
       },
-      "interface/system/zip":{
-        "component":"index"
+      "interface/system/zip": {
+        "component": "index"
       },
       "component/style/animation": {
         "component": "index"
@@ -579,7 +582,7 @@
     }
   ],
   "display": {
-    "textSizeAdjust":"auto",
+    "textSizeAdjust": "auto",
     "backgroundColor": "#fbf9fe",
     "titleBar": true,
     "titleBarBackgroundColor": "#0faeff",
@@ -603,7 +606,7 @@
       },
       "interface/system/fitCutout": {
         "fullScreen": true,
-        "fitCutout":"portrait"
+        "fitCutout": "portrait"
       },
       "component/media/web/darkmode-web": {
         "titleBarText": "webview夜间模式适配效果对比"
